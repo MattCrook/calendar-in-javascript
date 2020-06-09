@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "e2e": "cypress open",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "e2e": "cypress open"
+
   },
   "author": "matt crook",
   "license": "ISC",
@@ -20,7 +18,6 @@
   },
   "dependencies": {
     "domino": "^2.1.5",
-    "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
