@@ -1,3 +1,11 @@
+// import { readFileSync } from 'fs';
+// const domino = require('domino');
+// const DIST_FOLDER = join(process.cwd(), 'dist');
+// const template = readFileSync(join(DIST_FOLDER, 'browser', 'index.html')).toString();
+// const winObj = domino.createWindow(template);
+// global['window'] = winObj;
+// global['document'] = winObj.document;
+
 var months = [
   "Jan",
   "Feb",
@@ -12,6 +20,7 @@ var months = [
   "Nov",
   "Dec",
 ];
+
 var startYear = 2000;
 var endYear = 2020;
 var month = 0;
@@ -140,9 +149,9 @@ window.addEventListener("load", function () {
 });
 
 // eslint-disable-next-line no-undef
-module.exports = {
-  loadCalendarMonths,
-  loadCalendarYears,
-  loadCalendarDays,
-  daysInMonth,
-};
+// module.exports = {
+//   loadCalendarMonths,
+//   loadCalendarYears,
+//   loadCalendarDays,
+//   daysInMonth,
+// };
